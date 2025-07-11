@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
 
 :root {
-  --primary: #1a2238;
-  --accent: #21a0a0;
-  --background: #f9f9f9;
+  --primary: #111;
+  --accent: #005fa3;
+  --background: #fff;
   --surface: #f2f2f2;
-  --text: #22223b;
-  --nav-bg: #23233a;
+  --text: #111;
+  --nav-bg: #003366;
   --nav-link: #fff;
-  --nav-link-active: #21a0a0;
-  --cta-bg: #1a8cff;
+  --nav-link-active: #ffb400;
+  --cta-bg: #005fa3;
   --cta-text: #fff;
-  --upgrade-bg: #a9def9;
-  --footer-bg: #e0e0e0;
+  --upgrade-bg: #e0e0e0;
+  --footer-bg: #f2f2f2;
 }
 
 html {
@@ -81,7 +81,7 @@ body {
 }
 .main-nav a.active, .main-nav a:hover {
   background: var(--nav-link-active);
-  color: #fff;
+  color: #111;
 }
 
 .container {
@@ -94,6 +94,7 @@ h1 {
   font-size: 1.6rem;
   margin-top: 1.2rem;
   margin-bottom: 1.7rem;
+  color: #111;
 }
 
 .delorean-hero {
@@ -136,7 +137,7 @@ h1 {
   transition: background 0.2s;
 }
 .cta-btn:hover {
-  background: #1565c0;
+  background: #003366;
 }
 .delorean-image img {
   width: 220px;
@@ -181,7 +182,7 @@ h1 {
   margin-bottom: 0.3rem;
 }
 .upgrade-link {
-  color: #222;
+  color: #005fa3;
   text-decoration: underline;
   font-size: 0.97rem;
   margin-top: 0.2rem;
@@ -189,13 +190,14 @@ h1 {
 .review-list {
   padding-left: 1.2rem;
   font-size: 1rem;
+  color: #111;
 }
 .site-footer {
   background: var(--footer-bg);
   text-align: left;
   padding: 1.1rem 1.7rem 0.6rem 1.7rem;
   font-size: 0.97rem;
-  color: #444;
+  color: #111;
   border-top: 1px solid #d0d0d0;
   margin-top: 2.2rem;
 }
