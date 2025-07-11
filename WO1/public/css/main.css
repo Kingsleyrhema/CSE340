@@ -3,15 +3,15 @@
 
 :root {
   --primary: #111;
-  --accent: #005fa3;
+  --accent: #003366; /* much darker blue for headings/features */
   --background: #fff;
   --surface: #f2f2f2;
   --text: #111;
   --nav-bg: #003366;
   --nav-link: #fff;
   --nav-link-active: #ffb400;
-  --cta-bg: #005fa3;
-  --cta-text: #fff;
+  --cta-bg: #003366; /* button background */
+  --cta-text: #fff;  /* button text */
   --upgrade-bg: #e0e0e0;
   --footer-bg: #f2f2f2;
 }
@@ -121,7 +121,7 @@ h1 {
   list-style: none;
   padding: 0;
   margin: 0 0 1.1rem 0;
-  color: var(--accent);
+  color: #111; /* maximum contrast for features */
   font-size: 1rem;
 }
 .cta-btn {
@@ -137,7 +137,7 @@ h1 {
   transition: background 0.2s;
 }
 .cta-btn:hover {
-  background: #003366;
+  background: #002244;
 }
 .delorean-image img {
   width: 220px;
